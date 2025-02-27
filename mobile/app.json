@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "contact-app-tecimob",
     "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.windstonp.mobile"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "461b2863-868a-4bb9-89e6-6eea1e0c7c0e"
+      }
     }
   }
 }

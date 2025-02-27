@@ -18,10 +18,10 @@
    npm install
    ```
 
-2. Atualizar o .env
+2. caso for rodar localmente atualizar o .env
 
    ```bash
-    trocar o EXPO_PUBLIC_API_URL para o seu endereço Ipv4 exemplo http://192.168.25.25:30000
+    trocar o EXPO_PUBLIC_API_URL para o seu endereço Ipv4 exemplo http://192.168.25.25:3000
    ```
 
 
